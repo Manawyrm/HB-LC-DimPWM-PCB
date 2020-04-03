@@ -422,7 +422,7 @@
   )
 
   (module Capacitor_SMD:C_1206_3216Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5E80AC0A)
-    (at 165.18 68.1)
+    (at 165.18 68.4)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EBED575)
@@ -530,7 +530,7 @@
   )
 
   (module Capacitor_SMD:C_1206_3216Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5E80ABD7)
-    (at 165.18 92.32)
+    (at 165.18 92.5)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EAD2AA4)
@@ -566,7 +566,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5E7FE6E5)
-    (at 115.9 93.1)
+    (at 115.9 93)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EA3B478)
@@ -746,7 +746,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5E7FE6F6)
-    (at 115.9 91.6 180)
+    (at 115.9 91.5 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EA40C75)
@@ -1708,7 +1708,7 @@
   )
 
   (module Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_4-G-5.08_1x04_P5.08mm_Horizontal (layer F.Cu) (tedit 5B784ED2) (tstamp 5E807F44)
-    (at 165.2 87.75 90)
+    (at 165.2 88 90)
     (descr "Generic Phoenix Contact connector footprint for: MC_1,5/4-G-5.08; number of pins: 04; pin pitch: 5.08mm; Angled || order number: 1836202 8A 320V")
     (tags "phoenix_contact connector MC_01x04_G_5.08mm")
     (path /5EAFC5EA)
@@ -1759,7 +1759,7 @@
   )
 
   (module Fuse:Fuse_2920_7451Metric (layer F.Cu) (tedit 5B341557) (tstamp 5E80AC6E)
-    (at 157.5 71 180)
+    (at 157.5 71.3 180)
     (descr "Fuse SMD 2920 (7451 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://www.megastar.com/products/fusetronic/polyswitch/PDF/smd2920.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EBED568)
@@ -1800,7 +1800,7 @@
   )
 
   (module Fuse:Fuse_2920_7451Metric (layer F.Cu) (tedit 5B341557) (tstamp 5E80AC5D)
-    (at 157.5 77.1 180)
+    (at 157.5 77.4 180)
     (descr "Fuse SMD 2920 (7451 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://www.megastar.com/products/fusetronic/polyswitch/PDF/smd2920.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EBD3E18)
@@ -1840,8 +1840,8 @@
     )
   )
 
-  (module Fuse:Fuse_2920_7451Metric (layer F.Cu) (tedit 5B341557) (tstamp 5E80AC4C)
-    (at 157.5 83.2 180)
+  (module Fuse:Fuse_2920_7451Metric (layer F.Cu) (tedit 5B341557) (tstamp 5E87BACB)
+    (at 157.5 83.5 180)
     (descr "Fuse SMD 2920 (7451 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://www.megastar.com/products/fusetronic/polyswitch/PDF/smd2920.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EBC9ED5)
@@ -1882,7 +1882,7 @@
   )
 
   (module Fuse:Fuse_2920_7451Metric (layer F.Cu) (tedit 5B341557) (tstamp 5E80AC3B)
-    (at 157.5 89.3 180)
+    (at 157.5 89.6 180)
     (descr "Fuse SMD 2920 (7451 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://www.megastar.com/products/fusetronic/polyswitch/PDF/smd2920.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EAF259D)
@@ -3223,13 +3223,13 @@
   (segment (start 111.35 89.223) (end 111.35 89.8) (width 0.127) (layer F.Cu) (net 15))
   (segment (start 111.212 89.085) (end 111.35 89.223) (width 0.127) (layer F.Cu) (net 15))
   (segment (start 110 89.085) (end 111.212 89.085) (width 0.127) (layer F.Cu) (net 15))
-  (segment (start 112.4 93.1) (end 112.3 93.2) (width 0.5) (layer F.Cu) (net 16))
-  (segment (start 115.1125 93.1) (end 112.4 93.1) (width 0.5) (layer F.Cu) (net 16))
-  (segment (start 115.8 90.9125) (end 115.8 87.8) (width 0.5) (layer F.Cu) (net 17))
-  (segment (start 115.1125 91.6) (end 115.8 90.9125) (width 0.5) (layer F.Cu) (net 17))
-  (segment (start 117.8475 90.44) (end 116.6875 91.6) (width 0.5) (layer F.Cu) (net 18))
-  (segment (start 118.95 90.44) (end 117.8475 90.44) (width 0.5) (layer F.Cu) (net 18))
-  (segment (start 116.6875 91.6) (end 116.6875 93.1) (width 0.5) (layer F.Cu) (net 18))
+  (segment (start 112.5 93) (end 112.3 93.2) (width 0.5) (layer F.Cu) (net 16))
+  (segment (start 115.1125 93) (end 112.5 93) (width 0.5) (layer F.Cu) (net 16))
+  (segment (start 115.8 90.8125) (end 115.8 87.8) (width 0.5) (layer F.Cu) (net 17))
+  (segment (start 115.1125 91.5) (end 115.8 90.8125) (width 0.5) (layer F.Cu) (net 17))
+  (segment (start 116.6875 91.5) (end 116.6875 93) (width 0.5) (layer F.Cu) (net 18))
+  (segment (start 117.7475 90.44) (end 116.6875 91.5) (width 0.5) (layer F.Cu) (net 18))
+  (segment (start 118.95 90.44) (end 117.7475 90.44) (width 0.5) (layer F.Cu) (net 18))
   (segment (start 154 78.425) (end 154 77.3) (width 0.75) (layer F.Cu) (net 61))
   (segment (start 112.95 81) (end 112.3 81) (width 0.25) (layer F.Cu) (net 67))
   (segment (start 113.55 81) (end 112.95 81) (width 0.25) (layer F.Cu) (net 67))
@@ -3449,12 +3449,12 @@
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 167.1 86) (xy 159.8 86) (xy 159.8 80.4) (xy 167.1 80.4)
+        (xy 167.1 86.3) (xy 159.8 86.3) (xy 159.8 80.7) (xy 167.1 80.7)
       )
     )
     (filled_polygon
       (pts
-        (xy 167.0365 85.9365) (xy 159.8635 85.9365) (xy 159.8635 80.4635) (xy 167.0365 80.4635)
+        (xy 167.0365 86.2365) (xy 159.8635 86.2365) (xy 159.8635 80.7635) (xy 167.0365 80.7635)
       )
     )
   )
@@ -3465,12 +3465,12 @@
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 167.1 79.9) (xy 159.8 79.9) (xy 159.8 74.3) (xy 167.1 74.3)
+        (xy 167.1 80.2) (xy 159.8 80.2) (xy 159.8 74.6) (xy 167.1 74.6)
       )
     )
     (filled_polygon
       (pts
-        (xy 167.0365 79.8365) (xy 159.8635 79.8365) (xy 159.8635 74.3635) (xy 167.0365 74.3635)
+        (xy 167.0365 80.1365) (xy 159.8635 80.1365) (xy 159.8635 74.6635) (xy 167.0365 74.6635)
       )
     )
   )
@@ -3481,12 +3481,12 @@
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 167.1 73.8) (xy 159.8 73.8) (xy 159.8 69.5) (xy 167.1 69.5)
+        (xy 167.25 74.1) (xy 159.8 74.1) (xy 159.8 69.7) (xy 167.25 69.7)
       )
     )
     (filled_polygon
       (pts
-        (xy 167.0365 73.7365) (xy 159.8635 73.7365) (xy 159.8635 69.5635) (xy 167.0365 69.5635)
+        (xy 167.1865 74.0365) (xy 159.8635 74.0365) (xy 159.8635 69.7635) (xy 167.1865 69.7635)
       )
     )
   )
@@ -3497,19 +3497,19 @@
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 164.5 69.2) (xy 162.2 69.2) (xy 162.2 68) (xy 159 68) (xy 159 74.1)
-        (xy 152.8 74.1) (xy 152.8 74.8) (xy 148.8 74.8) (xy 148.8 66.9) (xy 164.5 66.9)
+        (xy 164.501736 69.5) (xy 162.198264 69.5) (xy 162.2 68.4) (xy 159 68.4) (xy 159 74.3)
+        (xy 152.8 74.3) (xy 152.8 74.8) (xy 148.8 74.8) (xy 148.8 66.9) (xy 164.5 66.9)
       )
     )
     (filled_polygon
       (pts
-        (xy 164.4365 69.1365) (xy 162.2635 69.1365) (xy 162.2635 68) (xy 162.26228 67.987612) (xy 162.258666 67.9757)
-        (xy 162.252798 67.964721) (xy 162.244901 67.955099) (xy 162.235279 67.947202) (xy 162.2243 67.941334) (xy 162.212388 67.93772)
-        (xy 162.2 67.9365) (xy 159 67.9365) (xy 158.987612 67.93772) (xy 158.9757 67.941334) (xy 158.964721 67.947202)
-        (xy 158.955099 67.955099) (xy 158.947202 67.964721) (xy 158.941334 67.9757) (xy 158.93772 67.987612) (xy 158.9365 68)
-        (xy 158.9365 74.0365) (xy 152.8 74.0365) (xy 152.787612 74.03772) (xy 152.7757 74.041334) (xy 152.764721 74.047202)
-        (xy 152.755099 74.055099) (xy 152.747202 74.064721) (xy 152.741334 74.0757) (xy 152.73772 74.087612) (xy 152.7365 74.1)
-        (xy 152.7365 74.7365) (xy 148.8635 74.7365) (xy 148.8635 66.9635) (xy 164.4365 66.9635)
+        (xy 164.438194 69.4365) (xy 162.261864 69.4365) (xy 162.2635 68.4001) (xy 162.262299 68.38771) (xy 162.258705 68.375792)
+        (xy 162.252854 68.364805) (xy 162.244972 68.35517) (xy 162.235362 68.347257) (xy 162.224393 68.341372) (xy 162.212487 68.33774)
+        (xy 162.2 68.3365) (xy 159 68.3365) (xy 158.987612 68.33772) (xy 158.9757 68.341334) (xy 158.964721 68.347202)
+        (xy 158.955099 68.355099) (xy 158.947202 68.364721) (xy 158.941334 68.3757) (xy 158.93772 68.387612) (xy 158.9365 68.4)
+        (xy 158.9365 74.2365) (xy 152.8 74.2365) (xy 152.787612 74.23772) (xy 152.7757 74.241334) (xy 152.764721 74.247202)
+        (xy 152.755099 74.255099) (xy 152.747202 74.264721) (xy 152.741334 74.2757) (xy 152.73772 74.287612) (xy 152.7365 74.3)
+        (xy 152.7365 74.7365) (xy 148.8635 74.7365) (xy 148.8635 66.9635) (xy 164.436542 66.9635)
       )
     )
   )
@@ -3520,18 +3520,18 @@
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 152.6 86.2) (xy 158.9 86.2) (xy 158.9 92.3) (xy 162.2 92.3) (xy 162.2 91.3)
+        (xy 152.6 86.5) (xy 158.9 86.5) (xy 158.9 92.5) (xy 162.2 92.5) (xy 162.2 91.3)
         (xy 164.5 91.3) (xy 164.5 93.9) (xy 148.6 93.9) (xy 148.6 85.9) (xy 152.6 85.9)
       )
     )
     (filled_polygon
       (pts
-        (xy 152.5365 86.2) (xy 152.53772 86.212388) (xy 152.541334 86.2243) (xy 152.547202 86.235279) (xy 152.555099 86.244901)
-        (xy 152.564721 86.252798) (xy 152.5757 86.258666) (xy 152.587612 86.26228) (xy 152.6 86.2635) (xy 158.8365 86.2635)
-        (xy 158.8365 92.3) (xy 158.83772 92.312388) (xy 158.841334 92.3243) (xy 158.847202 92.335279) (xy 158.855099 92.344901)
-        (xy 158.864721 92.352798) (xy 158.8757 92.358666) (xy 158.887612 92.36228) (xy 158.9 92.3635) (xy 162.2 92.3635)
-        (xy 162.212388 92.36228) (xy 162.2243 92.358666) (xy 162.235279 92.352798) (xy 162.244901 92.344901) (xy 162.252798 92.335279)
-        (xy 162.258666 92.3243) (xy 162.26228 92.312388) (xy 162.2635 92.3) (xy 162.2635 91.3635) (xy 164.4365 91.3635)
+        (xy 152.5365 86.5) (xy 152.53772 86.512388) (xy 152.541334 86.5243) (xy 152.547202 86.535279) (xy 152.555099 86.544901)
+        (xy 152.564721 86.552798) (xy 152.5757 86.558666) (xy 152.587612 86.56228) (xy 152.6 86.5635) (xy 158.8365 86.5635)
+        (xy 158.8365 92.5) (xy 158.83772 92.512388) (xy 158.841334 92.5243) (xy 158.847202 92.535279) (xy 158.855099 92.544901)
+        (xy 158.864721 92.552798) (xy 158.8757 92.558666) (xy 158.887612 92.56228) (xy 158.9 92.5635) (xy 162.2 92.5635)
+        (xy 162.212388 92.56228) (xy 162.2243 92.558666) (xy 162.235279 92.552798) (xy 162.244901 92.544901) (xy 162.252798 92.535279)
+        (xy 162.258666 92.5243) (xy 162.26228 92.512388) (xy 162.2635 92.5) (xy 162.2635 91.3635) (xy 164.4365 91.3635)
         (xy 164.4365 93.8365) (xy 148.6635 93.8365) (xy 148.6635 85.9635) (xy 152.5365 85.9635)
       )
     )

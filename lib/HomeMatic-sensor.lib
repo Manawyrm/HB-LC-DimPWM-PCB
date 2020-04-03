@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# HomeMatic-sensor
+#
+DEF HomeMatic-sensor U 0 40 Y Y 1 F N
+F0 "U" -300 750 50 H V C CNN
+F1 "HomeMatic-sensor" 400 750 50 H V C CNN
+F2 "HomeMatic-sensor:HomeMatic-sensor" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -550 700 550 -600 0 1 0 f
+X SENSOR_PWR 1 650 300 100 L 50 50 1 1 w
+X GND 2 0 -700 100 U 50 50 1 1 P
+X SCL 2 -650 150 100 R 50 50 1 1 C
+X SDA 3 -650 300 100 R 50 50 1 1 C
+X RX 5 -650 -150 100 R 50 50 1 1 I
+X TX 6 -650 -300 100 R 50 50 1 1 O
+X GPIO 7 650 150 100 L 50 50 1 1 P
+X VDD 8 0 800 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

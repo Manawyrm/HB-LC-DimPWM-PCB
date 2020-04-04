@@ -390,9 +390,9 @@ F 3 "" H 4500 2550 50  0001 C CNN
 	1    4500 2550
 	1    0    0    -1  
 $EndComp
-Text Label 3750 5050 0    50   ~ 0
+Text Label 4100 5050 2    50   ~ 0
 SWCLK
-Text Label 3750 4950 0    50   ~ 0
+Text Label 4100 4950 2    50   ~ 0
 SWDIO
 NoConn ~ 2450 3450
 NoConn ~ 2450 3350
@@ -627,12 +627,12 @@ Wire Wire Line
 $Comp
 L HomeMatic-sensor:HomeMatic-sensor U3
 U 1 1 5E9FF214
-P 5900 8150
-F 0 "U3" H 5900 9131 50  0000 C CNN
-F 1 "HomeMatic-sensor" H 5900 9040 50  0000 C CNN
-F 2 "HomeMatic-sensor:HomeMatic-sensor" H 5900 8150 50  0001 C CNN
-F 3 "" H 5900 8150 50  0001 C CNN
-	1    5900 8150
+P 2050 7200
+F 0 "U3" H 1600 7950 50  0000 C CNN
+F 1 "HomeMatic-sensor" H 2450 7950 50  0000 C CNN
+F 2 "HomeMatic-sensor:HomeMatic-sensor" H 2050 7200 50  0001 C CNN
+F 3 "" H 2050 7200 50  0001 C CNN
+	1    2050 7200
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -803,4 +803,62 @@ Wire Wire Line
 	8700 8600 8550 8600
 Wire Wire Line
 	8550 8600 8550 8750
+Text Label 2150 2200 0    50   ~ 0
+~RST
+Wire Wire Line
+	4100 4950 3750 4950
+Wire Wire Line
+	4100 5050 3750 5050
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EC451F2
+P 2050 6300
+F 0 "#PWR?" H 2050 6150 50  0001 C CNN
+F 1 "+3V3" H 2065 6473 50  0000 C CNN
+F 2 "" H 2050 6300 50  0001 C CNN
+F 3 "" H 2050 6300 50  0001 C CNN
+	1    2050 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 6300 2050 6400
+$Comp
+L power:GND #PWR?
+U 1 1 5EC474BA
+P 2050 8000
+F 0 "#PWR?" H 2050 7750 50  0001 C CNN
+F 1 "GND" H 2055 7827 50  0000 C CNN
+F 2 "" H 2050 8000 50  0001 C CNN
+F 3 "" H 2050 8000 50  0001 C CNN
+	1    2050 8000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 8000 2050 7900
+$Comp
+L Device:D_Schottky D?
+U 1 1 5EC49805
+P 3000 7050
+F 0 "D?" H 3000 7266 50  0000 C CNN
+F 1 "D_Schottky" H 3000 7175 50  0000 C CNN
+F 2 "" H 3000 7050 50  0001 C CNN
+F 3 "~" H 3000 7050 50  0001 C CNN
+	1    3000 7050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2700 6900
+Text Label 3400 7050 2    50   ~ 0
+~RST
+Wire Wire Line
+	3400 7050 3150 7050
+Wire Wire Line
+	2850 7050 2700 7050
+Text Label 1150 6900 0    50   ~ 0
+SDA
+Wire Wire Line
+	1150 6900 1400 6900
+Text Label 1150 7050 0    50   ~ 0
+SCL
+Wire Wire Line
+	1150 7050 1400 7050
 $EndSCHEMATC

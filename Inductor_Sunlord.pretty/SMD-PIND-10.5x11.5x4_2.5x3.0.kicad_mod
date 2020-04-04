@@ -1,4 +1,5 @@
-(module SMD-PIND-10.5x11.5x4_2.5x3.0 (layer F.Cu) (tedit 5E8084EA)
+(module SMD-PIND-10.5x11.5x4_2.5x3.0 (layer F.Cu) (tedit 5E8866B4)
+  (attr smd)
   (fp_text reference REF** (at 0 -6.35) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

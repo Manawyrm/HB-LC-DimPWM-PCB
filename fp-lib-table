@@ -2,4 +2,5 @@
   (lib (name Inductor_Sunlord)(type KiCad)(uri ${KIPRJMOD}/Inductor_Sunlord.pretty)(options "")(descr ""))
   (lib (name HomeMatic-sensor)(type KiCad)(uri ${KIPRJMOD}/lib/HomeMatic-sensor.pretty)(options "")(descr ""))
   (lib (name Connector_Wago_714)(type KiCad)(uri ${KIPRJMOD}/Connector_Wago_714.pretty)(options "")(descr ""))
+  (lib (name ToolingHole)(type KiCad)(uri ${KIPRJMOD}/lib/ToolingHole.pretty)(options "")(descr ""))
 )

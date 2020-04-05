@@ -263,11 +263,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# HomeMatic-sensor_HomeMatic-sensor
+# HB-LC-DimPWM-PCB-rescue_HomeMatic-sensor-HomeMatic-sensor-HB-LC-DimPWM-PCB-rescue
 #
-DEF HomeMatic-sensor_HomeMatic-sensor U 0 40 Y Y 1 F N
+DEF HB-LC-DimPWM-PCB-rescue_HomeMatic-sensor-HomeMatic-sensor-HB-LC-DimPWM-PCB-rescue U 0 40 Y Y 1 F N
 F0 "U" -300 750 50 H V C CNN
-F1 "HomeMatic-sensor_HomeMatic-sensor" 400 750 50 H V C CNN
+F1 "HB-LC-DimPWM-PCB-rescue_HomeMatic-sensor-HomeMatic-sensor-HB-LC-DimPWM-PCB-rescue" 400 750 50 H V C CNN
 F2 "HomeMatic-sensor:HomeMatic-sensor" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

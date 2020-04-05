@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "HB-LC-DimPWM"
+Date "2020-04-05"
+Rev "A"
+Comp "Tobias Schramm / Tobias Mädel"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -625,7 +625,7 @@ $EndComp
 Wire Wire Line
 	2150 2750 2050 2750
 $Comp
-L HomeMatic-sensor:HomeMatic-sensor U3
+L HB-LC-DimPWM-PCB-rescue:HomeMatic-sensor-HomeMatic-sensor-HB-LC-DimPWM-PCB-rescue U3
 U 1 1 5E9FF214
 P 5650 6150
 F 0 "U3" H 5200 6900 50  0000 C CNN

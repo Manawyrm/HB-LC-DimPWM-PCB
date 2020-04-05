@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 30)
+    (drawings 31)
     (tracks 1653)
     (zones 0)
     (modules 241)
@@ -9822,6 +9822,9 @@
     )
   )
 
+  (gr_text "HB PWM dimmer Rev A\nTobias Mädel\nTobias Schramm 2020" (at 159.6 79.2) (layer F.SilkS)
+    (effects (font (size 1.3 1.3) (thickness 0.2)) (justify left))
+  )
   (gr_text GND (at 86.9 93.6) (layer F.SilkS) (tstamp 5EA63C68)
     (effects (font (size 1 1) (thickness 0.15)))
   )

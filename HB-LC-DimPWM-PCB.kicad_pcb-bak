@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 26)
+    (drawings 30)
     (tracks 1653)
     (zones 0)
     (modules 241)
@@ -9822,6 +9822,18 @@
     )
   )
 
+  (gr_text GND (at 86.9 93.6) (layer F.SilkS) (tstamp 5EA63C68)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text GND (at 86.9 65.5) (layer F.SilkS) (tstamp 5EA63C68)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text GND (at 258.9 87.9 180) (layer F.SilkS) (tstamp 5EA63C68)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text GND (at 258.9 116.1 180) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_circle (center 141.5 70.4) (end 141.6 70.4) (layer F.SilkS) (width 0.3) (tstamp 5EA602BD))
   (gr_circle (center 141.6 115.1) (end 141.7 115.1) (layer F.SilkS) (width 0.3) (tstamp 5EA602BD))
   (gr_circle (center 141.5 109.7) (end 141.6 109.7) (layer F.SilkS) (width 0.3) (tstamp 5EA602BD))

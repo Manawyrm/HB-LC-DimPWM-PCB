@@ -625,7 +625,7 @@ $EndComp
 Wire Wire Line
 	2150 2750 2050 2750
 $Comp
-L HB-LC-DimPWM-PCB-rescue:HomeMatic-sensor-HomeMatic-sensor-HB-LC-DimPWM-PCB-rescue U3
+L HomeMatic-sensor:HomeMatic-sensor U3
 U 1 1 5E9FF214
 P 5650 6150
 F 0 "U3" H 5200 6900 50  0000 C CNN

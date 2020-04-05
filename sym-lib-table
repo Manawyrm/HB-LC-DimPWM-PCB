@@ -1,4 +1,3 @@
 (sym_lib_table
   (lib (name HomeMatic-sensor)(type Legacy)(uri ${KIPRJMOD}/lib/HomeMatic-sensor.lib)(options "")(descr ""))
-  (lib (name HB-LC-DimPWM-PCB-rescue)(type Legacy)(uri ${KIPRJMOD}/HB-LC-DimPWM-PCB-rescue.lib)(options "")(descr ""))
 )

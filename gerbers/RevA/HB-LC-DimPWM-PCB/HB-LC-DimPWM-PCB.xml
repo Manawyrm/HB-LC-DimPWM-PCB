@@ -1,0 +1,4265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/tobias/Entwicklung/HB-LC-DimPWM-PCB/HB-LC-DimPWM-PCB.sch</source>
+    <date>So 05 Apr 2020 15:41:37 CEST</date>
+    <tool>Eeschema 5.1.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>HB-LC-DimPWM</title>
+        <company>Tobias Schramm / Tobias Mädel</company>
+        <rev>A</rev>
+        <date>2020-04-05</date>
+        <source>HB-LC-DimPWM-PCB.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Dimmer channel 1/" tstamps="/5EADE2DF/">
+      <title_block>
+        <title>Dimmer channel</title>
+        <company>Tobias Schramm / Tobias Mädel</company>
+        <rev>A</rev>
+        <date>2020-04-05</date>
+        <source>dimmer_channel.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Dimmer channel 2/" tstamps="/5EAEA785/">
+      <title_block>
+        <title>Dimmer channel</title>
+        <company>Tobias Schramm / Tobias Mädel</company>
+        <rev>A</rev>
+        <date>2020-04-05</date>
+        <source>dimmer_channel.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Dimmer channel 3/" tstamps="/5EAEB6DE/">
+      <title_block>
+        <title>Dimmer channel</title>
+        <company>Tobias Schramm / Tobias Mädel</company>
+        <rev>A</rev>
+        <date>2020-04-05</date>
+        <source>dimmer_channel.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Dimmer channel 4/" tstamps="/5EAEC5FF/">
+      <title_block>
+        <title>Dimmer channel</title>
+        <company>Tobias Schramm / Tobias Mädel</company>
+        <rev>A</rev>
+        <date>2020-04-05</date>
+        <source>dimmer_channel.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>SWD</value>
+      <footprint>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E83D1BB</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>500mA</value>
+      <footprint>Fuse:Fuse_2512_6332Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C312001</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E893A61</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>12V Input</value>
+      <footprint>Connector_Wago_714:Wago_714-162_1x02_P3.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8945F9</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x6.7</footprint>
+      <datasheet>C311668</datasheet>
+      <fields>
+        <field name="LCSC">C127967</field>
+      </fields>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8AAA41</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C59461</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8B3DED</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8D9E1E</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AMS1117-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C6186</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AMS1117-3.3" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E88921B</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8B890C</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E90385E</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E82C718</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E82C705</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E817A35</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E81554E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25741</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E81C3D0</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C26083</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E80CFC5</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>20pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1554</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7FFC2E</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>20pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1554</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7FD082</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>8MHz</value>
+      <footprint>Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C115962</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7FA873</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7F87BB</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7F6CFE</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>STM32F103C8Tx</value>
+      <footprint>Package_QFP:LQFP-48_7x7mm_P0.5mm</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8734</field>
+      </fields>
+      <libsource lib="MCU_ST_STM32F1" part="STM32F103C8Tx" description="ARM Cortex-M3 MCU, 64KB flash, 20KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E7F4AF3</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>HomeMatic-sensor</value>
+      <footprint>HomeMatic-sensor:HomeMatic-sensor</footprint>
+      <libsource lib="HomeMatic-sensor" part="HomeMatic-sensor" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9FF214</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C8598</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC49805</tstamp>
+    </comp>
+    <comp ref="F18">
+      <value>500mA</value>
+      <footprint>Fuse:Fuse_2512_6332Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C312001</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDB3BE7</tstamp>
+    </comp>
+    <comp ref="F19">
+      <value>500mA</value>
+      <footprint>Fuse:Fuse_2512_6332Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C312001</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE23DCD</tstamp>
+    </comp>
+    <comp ref="C64">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C13585</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EEACB05</tstamp>
+    </comp>
+    <comp ref="C62">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C13585</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EEB68A5</tstamp>
+    </comp>
+    <comp ref="C61">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C13585</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EEBBB5F</tstamp>
+    </comp>
+    <comp ref="C63">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C13585</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EEC0E3B</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>ToolingHole</value>
+      <footprint>ToolingHole:ToolingHole_JLCSMT</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8AC18C</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>ToolingHole</value>
+      <footprint>ToolingHole:ToolingHole_JLCSMT</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8AC9BB</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x05_Male</value>
+      <footprint>Connector_Wago:Wago_734-165_1x05_P3.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EAFC5EA</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>15V 5A</value>
+      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C207089</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EAF259D</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1848</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EAD2AA4</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1790</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EAC2FAF</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EA3B478</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EA2A0EF</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS84</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8492</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EA28DAF</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5E991765</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5E9C7DAE</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5E9A166C</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>S9013</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C6749</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5E992C9F</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>15V 5A</value>
+      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C207089</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBC9ED5</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1848</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBC9EE2</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1790</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBC9EF4</tstamp>
+    </comp>
+    <comp ref="Q14">
+      <value>VS5810AS</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C427034</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="FDS6630A" description="6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBC9F00</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBC9F14</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBC9F1B</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBC9F27</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>BSS84</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8492</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBC9F2E</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBC9F35</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBC9F49</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>S9013</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C6749</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBC9F5D</tstamp>
+    </comp>
+    <comp ref="F4">
+      <value>15V 5A</value>
+      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C207089</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBD3E18</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1848</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBD3E25</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1790</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBD3E37</tstamp>
+    </comp>
+    <comp ref="Q15">
+      <value>VS5810AS</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C427034</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="FDS6630A" description="6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBD3E43</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBD3E57</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBD3E5E</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBD3E6A</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>BSS84</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8492</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBD3E71</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBD3E78</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBD3E7F</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBD3E8C</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>S9013</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C6749</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBD3EA0</tstamp>
+    </comp>
+    <comp ref="F5">
+      <value>15V 5A</value>
+      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C207089</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBED568</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBED575</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1790</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBED587</tstamp>
+    </comp>
+    <comp ref="Q16">
+      <value>VS5810AS</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C427034</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="FDS6630A" description="6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBED593</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBED5A7</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBED5AE</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBED5BA</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>BSS84</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8492</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBED5C1</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBED5C8</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBED5CF</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBED5DC</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>4.7uH</value>
+      <footprint>Inductor_Sunlord:SMD-PIND-10.5x11.5x4_2.5x3.0</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C183899</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EACC650</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>4.7uH</value>
+      <footprint>Inductor_Sunlord:SMD-PIND-10.5x11.5x4_2.5x3.0</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C183899</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBC9EE9</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>4.7uH</value>
+      <footprint>Inductor_Sunlord:SMD-PIND-10.5x11.5x4_2.5x3.0</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C183899</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBED57C</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>4.7uH</value>
+      <footprint>Inductor_Sunlord:SMD-PIND-10.5x11.5x4_2.5x3.0</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C183899</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBD3E2C</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>S9013</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C6749</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBED5F0</tstamp>
+    </comp>
+    <comp ref="Q13">
+      <value>VS5810AS</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C427034</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="FDS6630A" description="6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EA61D00</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EBC9F3C</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 1/" tstamps="/5EADE2DF/"/>
+      <tstamp>5EA40C75</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x05_Male</value>
+      <footprint>Connector_Wago:Wago_734-165_1x05_P3.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EAFC5EA</tstamp>
+    </comp>
+    <comp ref="F6">
+      <value>15V 5A</value>
+      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C207089</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EAF259D</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1848</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EAD2AA4</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1790</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EAC2FAF</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EA3B478</tstamp>
+    </comp>
+    <comp ref="Q22">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EA2A0EF</tstamp>
+    </comp>
+    <comp ref="Q21">
+      <value>BSS84</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8492</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EA28DAF</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5E991765</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5E9C7DAE</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5E9A166C</tstamp>
+    </comp>
+    <comp ref="Q17">
+      <value>S9013</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C6749</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5E992C9F</tstamp>
+    </comp>
+    <comp ref="F7">
+      <value>15V 5A</value>
+      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C207089</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBC9ED5</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1848</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBC9EE2</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1790</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBC9EF4</tstamp>
+    </comp>
+    <comp ref="Q30">
+      <value>VS5810AS</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C427034</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="FDS6630A" description="6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBC9F00</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBC9F14</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBC9F1B</tstamp>
+    </comp>
+    <comp ref="Q24">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBC9F27</tstamp>
+    </comp>
+    <comp ref="Q23">
+      <value>BSS84</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8492</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBC9F2E</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBC9F35</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBC9F49</tstamp>
+    </comp>
+    <comp ref="Q18">
+      <value>S9013</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C6749</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBC9F5D</tstamp>
+    </comp>
+    <comp ref="F8">
+      <value>15V 5A</value>
+      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C207089</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBD3E18</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1848</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBD3E25</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1790</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBD3E37</tstamp>
+    </comp>
+    <comp ref="Q31">
+      <value>VS5810AS</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C427034</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="FDS6630A" description="6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBD3E43</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBD3E57</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBD3E5E</tstamp>
+    </comp>
+    <comp ref="Q26">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBD3E6A</tstamp>
+    </comp>
+    <comp ref="Q25">
+      <value>BSS84</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8492</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBD3E71</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBD3E78</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBD3E7F</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBD3E8C</tstamp>
+    </comp>
+    <comp ref="Q19">
+      <value>S9013</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C6749</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBD3EA0</tstamp>
+    </comp>
+    <comp ref="F9">
+      <value>15V 5A</value>
+      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C207089</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBED568</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBED575</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1790</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBED587</tstamp>
+    </comp>
+    <comp ref="Q32">
+      <value>VS5810AS</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C427034</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="FDS6630A" description="6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBED593</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBED5A7</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBED5AE</tstamp>
+    </comp>
+    <comp ref="Q28">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBED5BA</tstamp>
+    </comp>
+    <comp ref="Q27">
+      <value>BSS84</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8492</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBED5C1</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBED5C8</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBED5CF</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBED5DC</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>4.7uH</value>
+      <footprint>Inductor_Sunlord:SMD-PIND-10.5x11.5x4_2.5x3.0</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C183899</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EACC650</tstamp>
+    </comp>
+    <comp ref="L6">
+      <value>4.7uH</value>
+      <footprint>Inductor_Sunlord:SMD-PIND-10.5x11.5x4_2.5x3.0</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C183899</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBC9EE9</tstamp>
+    </comp>
+    <comp ref="L8">
+      <value>4.7uH</value>
+      <footprint>Inductor_Sunlord:SMD-PIND-10.5x11.5x4_2.5x3.0</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C183899</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBED57C</tstamp>
+    </comp>
+    <comp ref="L7">
+      <value>4.7uH</value>
+      <footprint>Inductor_Sunlord:SMD-PIND-10.5x11.5x4_2.5x3.0</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C183899</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBD3E2C</tstamp>
+    </comp>
+    <comp ref="Q20">
+      <value>S9013</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C6749</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBED5F0</tstamp>
+    </comp>
+    <comp ref="Q29">
+      <value>VS5810AS</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C427034</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="FDS6630A" description="6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EA61D00</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EBC9F3C</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 2/" tstamps="/5EAEA785/"/>
+      <tstamp>5EA40C75</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x05_Male</value>
+      <footprint>Connector_Wago:Wago_734-165_1x05_P3.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EAFC5EA</tstamp>
+    </comp>
+    <comp ref="F10">
+      <value>15V 5A</value>
+      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C207089</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EAF259D</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1848</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EAD2AA4</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1790</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EAC2FAF</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EA3B478</tstamp>
+    </comp>
+    <comp ref="Q38">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EA2A0EF</tstamp>
+    </comp>
+    <comp ref="Q37">
+      <value>BSS84</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8492</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EA28DAF</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5E991765</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5E9C7DAE</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5E9A166C</tstamp>
+    </comp>
+    <comp ref="Q33">
+      <value>S9013</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C6749</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5E992C9F</tstamp>
+    </comp>
+    <comp ref="F11">
+      <value>15V 5A</value>
+      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C207089</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBC9ED5</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1848</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBC9EE2</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1790</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBC9EF4</tstamp>
+    </comp>
+    <comp ref="Q46">
+      <value>VS5810AS</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C427034</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="FDS6630A" description="6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBC9F00</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBC9F14</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBC9F1B</tstamp>
+    </comp>
+    <comp ref="Q40">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBC9F27</tstamp>
+    </comp>
+    <comp ref="Q39">
+      <value>BSS84</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8492</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBC9F2E</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBC9F35</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBC9F49</tstamp>
+    </comp>
+    <comp ref="Q34">
+      <value>S9013</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C6749</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBC9F5D</tstamp>
+    </comp>
+    <comp ref="F12">
+      <value>15V 5A</value>
+      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C207089</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBD3E18</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1848</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBD3E25</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1790</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBD3E37</tstamp>
+    </comp>
+    <comp ref="Q47">
+      <value>VS5810AS</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C427034</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="FDS6630A" description="6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBD3E43</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBD3E57</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBD3E5E</tstamp>
+    </comp>
+    <comp ref="Q42">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBD3E6A</tstamp>
+    </comp>
+    <comp ref="Q41">
+      <value>BSS84</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8492</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBD3E71</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBD3E78</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBD3E7F</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBD3E8C</tstamp>
+    </comp>
+    <comp ref="Q35">
+      <value>S9013</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C6749</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBD3EA0</tstamp>
+    </comp>
+    <comp ref="F13">
+      <value>15V 5A</value>
+      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C207089</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBED568</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBED575</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1790</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBED587</tstamp>
+    </comp>
+    <comp ref="Q48">
+      <value>VS5810AS</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C427034</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="FDS6630A" description="6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBED593</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBED5A7</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBED5AE</tstamp>
+    </comp>
+    <comp ref="Q44">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBED5BA</tstamp>
+    </comp>
+    <comp ref="Q43">
+      <value>BSS84</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8492</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBED5C1</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBED5C8</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBED5CF</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBED5DC</tstamp>
+    </comp>
+    <comp ref="L9">
+      <value>4.7uH</value>
+      <footprint>Inductor_Sunlord:SMD-PIND-10.5x11.5x4_2.5x3.0</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C183899</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EACC650</tstamp>
+    </comp>
+    <comp ref="L10">
+      <value>4.7uH</value>
+      <footprint>Inductor_Sunlord:SMD-PIND-10.5x11.5x4_2.5x3.0</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C183899</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBC9EE9</tstamp>
+    </comp>
+    <comp ref="L12">
+      <value>4.7uH</value>
+      <footprint>Inductor_Sunlord:SMD-PIND-10.5x11.5x4_2.5x3.0</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C183899</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBED57C</tstamp>
+    </comp>
+    <comp ref="L11">
+      <value>4.7uH</value>
+      <footprint>Inductor_Sunlord:SMD-PIND-10.5x11.5x4_2.5x3.0</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C183899</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBD3E2C</tstamp>
+    </comp>
+    <comp ref="Q36">
+      <value>S9013</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C6749</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBED5F0</tstamp>
+    </comp>
+    <comp ref="Q45">
+      <value>VS5810AS</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C427034</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="FDS6630A" description="6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EA61D00</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EBC9F3C</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 3/" tstamps="/5EAEB6DE/"/>
+      <tstamp>5EA40C75</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x05_Male</value>
+      <footprint>Connector_Wago:Wago_734-165_1x05_P3.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EAFC5EA</tstamp>
+    </comp>
+    <comp ref="F14">
+      <value>15V 5A</value>
+      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C207089</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EAF259D</tstamp>
+    </comp>
+    <comp ref="C57">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1848</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EAD2AA4</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1790</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EAC2FAF</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EA3B478</tstamp>
+    </comp>
+    <comp ref="Q54">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EA2A0EF</tstamp>
+    </comp>
+    <comp ref="Q53">
+      <value>BSS84</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8492</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EA28DAF</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5E991765</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5E9C7DAE</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5E9A166C</tstamp>
+    </comp>
+    <comp ref="Q49">
+      <value>S9013</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C6749</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5E992C9F</tstamp>
+    </comp>
+    <comp ref="F15">
+      <value>15V 5A</value>
+      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C207089</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBC9ED5</tstamp>
+    </comp>
+    <comp ref="C58">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1848</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBC9EE2</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1790</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBC9EF4</tstamp>
+    </comp>
+    <comp ref="Q62">
+      <value>VS5810AS</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C427034</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="FDS6630A" description="6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBC9F00</tstamp>
+    </comp>
+    <comp ref="R63">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBC9F14</tstamp>
+    </comp>
+    <comp ref="R62">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBC9F1B</tstamp>
+    </comp>
+    <comp ref="Q56">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBC9F27</tstamp>
+    </comp>
+    <comp ref="Q55">
+      <value>BSS84</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8492</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBC9F2E</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBC9F35</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBC9F49</tstamp>
+    </comp>
+    <comp ref="Q50">
+      <value>S9013</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C6749</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBC9F5D</tstamp>
+    </comp>
+    <comp ref="F16">
+      <value>15V 5A</value>
+      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C207089</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBD3E18</tstamp>
+    </comp>
+    <comp ref="C59">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1848</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBD3E25</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1790</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBD3E37</tstamp>
+    </comp>
+    <comp ref="Q63">
+      <value>VS5810AS</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C427034</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="FDS6630A" description="6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBD3E43</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBD3E57</tstamp>
+    </comp>
+    <comp ref="R64">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBD3E5E</tstamp>
+    </comp>
+    <comp ref="Q58">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBD3E6A</tstamp>
+    </comp>
+    <comp ref="Q57">
+      <value>BSS84</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8492</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBD3E71</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBD3E78</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBD3E7F</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBD3E8C</tstamp>
+    </comp>
+    <comp ref="Q51">
+      <value>S9013</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C6749</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBD3EA0</tstamp>
+    </comp>
+    <comp ref="F17">
+      <value>15V 5A</value>
+      <footprint>Fuse:Fuse_2920_7451Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C207089</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBED568</tstamp>
+    </comp>
+    <comp ref="C60">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBED575</tstamp>
+    </comp>
+    <comp ref="C56">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1790</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBED587</tstamp>
+    </comp>
+    <comp ref="Q64">
+      <value>VS5810AS</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C427034</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="FDS6630A" description="6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBED593</tstamp>
+    </comp>
+    <comp ref="R67">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBED5A7</tstamp>
+    </comp>
+    <comp ref="R66">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBED5AE</tstamp>
+    </comp>
+    <comp ref="Q60">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBED5BA</tstamp>
+    </comp>
+    <comp ref="Q59">
+      <value>BSS84</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8492</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBED5C1</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C11702</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBED5C8</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBED5CF</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C52923</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBED5DC</tstamp>
+    </comp>
+    <comp ref="L13">
+      <value>4.7uH</value>
+      <footprint>Inductor_Sunlord:SMD-PIND-10.5x11.5x4_2.5x3.0</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C183899</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EACC650</tstamp>
+    </comp>
+    <comp ref="L14">
+      <value>4.7uH</value>
+      <footprint>Inductor_Sunlord:SMD-PIND-10.5x11.5x4_2.5x3.0</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C183899</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBC9EE9</tstamp>
+    </comp>
+    <comp ref="L16">
+      <value>4.7uH</value>
+      <footprint>Inductor_Sunlord:SMD-PIND-10.5x11.5x4_2.5x3.0</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C183899</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBED57C</tstamp>
+    </comp>
+    <comp ref="L15">
+      <value>4.7uH</value>
+      <footprint>Inductor_Sunlord:SMD-PIND-10.5x11.5x4_2.5x3.0</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C183899</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBD3E2C</tstamp>
+    </comp>
+    <comp ref="Q52">
+      <value>S9013</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C6749</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBED5F0</tstamp>
+    </comp>
+    <comp ref="Q61">
+      <value>VS5810AS</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C427034</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="FDS6630A" description="6.5A Id, 30V Vds, N-Channel MOSFET, 38mOhm Ron, SOIC-8"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EA61D00</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25744</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EBC9F3C</tstamp>
+    </comp>
+    <comp ref="R61">
+      <value>22R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C23345</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Dimmer channel 4/" tstamps="/5EAEC5FF/"/>
+      <tstamp>5EA40C75</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Male">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_BEC">
+      <description>NPN transistor, base/emitter/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HomeMatic-sensor" part="HomeMatic-sensor">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HomeMatic-sensor</field>
+        <field name="Footprint">HomeMatic-sensor:HomeMatic-sensor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SENSOR_PWR" type="power_out"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="SDA" type="openCol"/>
+        <pin num="4" name="SCL" type="openCol"/>
+        <pin num="5" name="RX" type="input"/>
+        <pin num="6" name="TX" type="output"/>
+        <pin num="7" name="GPIO" type="passive"/>
+        <pin num="8" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32F1" part="STM32F103C8Tx">
+      <aliases>
+        <alias>STM32F103CBTx</alias>
+      </aliases>
+      <description>ARM Cortex-M3 MCU, 64KB flash, 20KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf</docs>
+      <footprints>
+        <fp>LQFP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F103C8Tx</field>
+        <field name="Footprint">Package_QFP:LQFP-48_7x7mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="BiDi"/>
+        <pin num="3" name="PC14" type="BiDi"/>
+        <pin num="4" name="PC15" type="BiDi"/>
+        <pin num="5" name="PD0" type="input"/>
+        <pin num="6" name="PD1" type="input"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="VSSA" type="power_in"/>
+        <pin num="9" name="VDDA" type="power_in"/>
+        <pin num="10" name="PA0" type="BiDi"/>
+        <pin num="11" name="PA1" type="BiDi"/>
+        <pin num="12" name="PA2" type="BiDi"/>
+        <pin num="13" name="PA3" type="BiDi"/>
+        <pin num="14" name="PA4" type="BiDi"/>
+        <pin num="15" name="PA5" type="BiDi"/>
+        <pin num="16" name="PA6" type="BiDi"/>
+        <pin num="17" name="PA7" type="BiDi"/>
+        <pin num="18" name="PB0" type="BiDi"/>
+        <pin num="19" name="PB1" type="BiDi"/>
+        <pin num="20" name="PB2" type="BiDi"/>
+        <pin num="21" name="PB10" type="BiDi"/>
+        <pin num="22" name="PB11" type="BiDi"/>
+        <pin num="23" name="VSS" type="power_in"/>
+        <pin num="24" name="VDD" type="power_in"/>
+        <pin num="25" name="PB12" type="BiDi"/>
+        <pin num="26" name="PB13" type="BiDi"/>
+        <pin num="27" name="PB14" type="BiDi"/>
+        <pin num="28" name="PB15" type="BiDi"/>
+        <pin num="29" name="PA8" type="BiDi"/>
+        <pin num="30" name="PA9" type="BiDi"/>
+        <pin num="31" name="PA10" type="BiDi"/>
+        <pin num="32" name="PA11" type="BiDi"/>
+        <pin num="33" name="PA12" type="BiDi"/>
+        <pin num="34" name="PA13" type="BiDi"/>
+        <pin num="35" name="VSS" type="power_in"/>
+        <pin num="36" name="VDD" type="power_in"/>
+        <pin num="37" name="PA14" type="BiDi"/>
+        <pin num="38" name="PA15" type="BiDi"/>
+        <pin num="39" name="PB3" type="BiDi"/>
+        <pin num="40" name="PB4" type="BiDi"/>
+        <pin num="41" name="PB5" type="BiDi"/>
+        <pin num="42" name="PB6" type="BiDi"/>
+        <pin num="43" name="PB7" type="BiDi"/>
+        <pin num="44" name="BOOT0" type="input"/>
+        <pin num="45" name="PB8" type="BiDi"/>
+        <pin num="46" name="PB9" type="BiDi"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP1117-15">
+      <aliases>
+        <alias>AP1117-18</alias>
+        <alias>AP1117-25</alias>
+        <alias>AP1117-33</alias>
+        <alias>AP1117-50</alias>
+        <alias>LD1117S33TR_SOT223</alias>
+        <alias>LD1117S12TR_SOT223</alias>
+        <alias>LD1117S18TR_SOT223</alias>
+        <alias>LD1117S25TR_SOT223</alias>
+        <alias>LD1117S50TR_SOT223</alias>
+        <alias>NCP1117-12_SOT223</alias>
+        <alias>NCP1117-1.5_SOT223</alias>
+        <alias>NCP1117-1.8_SOT223</alias>
+        <alias>NCP1117-2.0_SOT223</alias>
+        <alias>NCP1117-2.5_SOT223</alias>
+        <alias>NCP1117-2.85_SOT223</alias>
+        <alias>NCP1117-3.3_SOT223</alias>
+        <alias>NCP1117-5.0_SOT223</alias>
+        <alias>AMS1117-1.5</alias>
+        <alias>AMS1117-1.8</alias>
+        <alias>AMS1117-2.5</alias>
+        <alias>AMS1117-2.85</alias>
+        <alias>AMS1117-3.3</alias>
+        <alias>AMS1117-5.0</alias>
+      </aliases>
+      <description>1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223</description>
+      <docs>http://www.diodes.com/datasheets/AP1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP1117-15</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML0030</alias>
+        <alias>IRLML2060</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="IRF8721PBF-1">
+      <aliases>
+        <alias>IRF7403</alias>
+        <alias>FDS2734</alias>
+        <alias>FDS6630A</alias>
+        <alias>Si4162DY</alias>
+      </aliases>
+      <description>14A Id, 30V Vds, HEXFET N-Channel MOSFET, SO-8</description>
+      <docs>http://www.irf.com/product-info/datasheets/data/irf8721pbf-1.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF8721PBF-1</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="input"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+        <pin num="7" name="D" type="passive"/>
+        <pin num="8" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="TP0610T">
+      <aliases>
+        <alias>VP0610T</alias>
+        <alias>BSS84</alias>
+        <alias>NTR2101P</alias>
+        <alias>BSS83P</alias>
+        <alias>Si2319CDS</alias>
+        <alias>IRLML6402</alias>
+        <alias>DMG2301L</alias>
+        <alias>AO3401A</alias>
+        <alias>IRLML9301</alias>
+        <alias>IRLML5203</alias>
+        <alias>Si2371EDS</alias>
+      </aliases>
+      <description>-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://www.vishay.com/docs/70209/70209.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TP0610T</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="HomeMatic-sensor">
+      <uri>/home/tobias/Entwicklung/HB-LC-DimPWM-PCB/lib/HomeMatic-sensor.lib</uri>
+    </library>
+    <library logical="MCU_ST_STM32F1">
+      <uri>/usr/share/kicad/library/MCU_ST_STM32F1.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/library/Transistor_FET.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C12" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J1" pin="7"/>
+      <node ref="U1" pin="24"/>
+      <node ref="U1" pin="36"/>
+      <node ref="U1" pin="48"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U3" pin="8"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="2" name="/SDA">
+      <node ref="U1" pin="22"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad1)">
+      <node ref="U3" pin="7"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="4" name="/~RST">
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="5" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="Q22" pin="2"/>
+      <node ref="Q13" pin="2"/>
+      <node ref="Q13" pin="3"/>
+      <node ref="Q17" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="Q20" pin="2"/>
+      <node ref="Q18" pin="2"/>
+      <node ref="Q29" pin="1"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="Q13" pin="1"/>
+      <node ref="Q28" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="Q30" pin="3"/>
+      <node ref="Q30" pin="2"/>
+      <node ref="Q30" pin="1"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="Q31" pin="3"/>
+      <node ref="Q31" pin="2"/>
+      <node ref="Q31" pin="1"/>
+      <node ref="Q11" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="Q15" pin="3"/>
+      <node ref="Q15" pin="2"/>
+      <node ref="Q15" pin="1"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="Q14" pin="3"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="Q14" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="Q19" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="Q32" pin="2"/>
+      <node ref="Q32" pin="3"/>
+      <node ref="Q26" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="Q29" pin="3"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="Q14" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="Q9" pin="2"/>
+      <node ref="Q29" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="Q32" pin="1"/>
+      <node ref="C36" pin="2"/>
+      <node ref="Q52" pin="2"/>
+      <node ref="C51" pin="2"/>
+      <node ref="Q58" pin="2"/>
+      <node ref="Q61" pin="3"/>
+      <node ref="Q61" pin="2"/>
+      <node ref="Q61" pin="1"/>
+      <node ref="C52" pin="2"/>
+      <node ref="Q60" pin="2"/>
+      <node ref="C46" pin="2"/>
+      <node ref="Q40" pin="2"/>
+      <node ref="Q64" pin="1"/>
+      <node ref="C56" pin="2"/>
+      <node ref="C60" pin="2"/>
+      <node ref="C49" pin="2"/>
+      <node ref="Q64" pin="2"/>
+      <node ref="Q64" pin="3"/>
+      <node ref="Q51" pin="2"/>
+      <node ref="C55" pin="2"/>
+      <node ref="Q63" pin="3"/>
+      <node ref="Q63" pin="2"/>
+      <node ref="Q63" pin="1"/>
+      <node ref="C59" pin="2"/>
+      <node ref="Q62" pin="3"/>
+      <node ref="Q62" pin="2"/>
+      <node ref="Q62" pin="1"/>
+      <node ref="C54" pin="2"/>
+      <node ref="C58" pin="2"/>
+      <node ref="Q56" pin="2"/>
+      <node ref="Q54" pin="2"/>
+      <node ref="Q49" pin="2"/>
+      <node ref="C57" pin="2"/>
+      <node ref="J6" pin="1"/>
+      <node ref="C53" pin="2"/>
+      <node ref="Q50" pin="2"/>
+      <node ref="C50" pin="2"/>
+      <node ref="Q35" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="Q45" pin="3"/>
+      <node ref="Q45" pin="2"/>
+      <node ref="Q45" pin="1"/>
+      <node ref="Q36" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="Q44" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="Q24" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="C48" pin="2"/>
+      <node ref="Q42" pin="2"/>
+      <node ref="Q48" pin="1"/>
+      <node ref="Q48" pin="3"/>
+      <node ref="Q48" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="Q47" pin="3"/>
+      <node ref="Q47" pin="2"/>
+      <node ref="Q47" pin="1"/>
+      <node ref="Q34" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="Q46" pin="3"/>
+      <node ref="Q46" pin="2"/>
+      <node ref="Q46" pin="1"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="Q38" pin="2"/>
+      <node ref="Q33" pin="2"/>
+      <node ref="C45" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="C41" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C64" pin="2"/>
+      <node ref="C63" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="47"/>
+      <node ref="U1" pin="35"/>
+      <node ref="U1" pin="23"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="Q16" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C61" pin="2"/>
+      <node ref="C62" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="6"/>
+      <node ref="Q16" pin="3"/>
+      <node ref="Q16" pin="2"/>
+    </net>
+    <net code="7" name="/PWM5">
+      <node ref="U1" pin="11"/>
+      <node ref="R53" pin="1"/>
+    </net>
+    <net code="8" name="/PWM11">
+      <node ref="U1" pin="19"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="9" name="/PWM10">
+      <node ref="R22" pin="1"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="10" name="/PWM9">
+      <node ref="R21" pin="1"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="11" name="/PWM8">
+      <node ref="U1" pin="16"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="12" name="/PWM7">
+      <node ref="R55" pin="1"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="13" name="/PWM6">
+      <node ref="R54" pin="1"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="14" name="/PWM4">
+      <node ref="U1" pin="10"/>
+      <node ref="R52" pin="1"/>
+    </net>
+    <net code="15" name="/PWM3">
+      <node ref="U1" pin="32"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="16" name="/PWM2">
+      <node ref="U1" pin="31"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="17" name="/PWM1">
+      <node ref="R8" pin="1"/>
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="18" name="/PWM0">
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="19" name="/SCL">
+      <node ref="U1" pin="21"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="20" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="21" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="22" name="+12V">
+      <node ref="J2" pin="1"/>
+      <node ref="F18" pin="2"/>
+      <node ref="F1" pin="2"/>
+      <node ref="F19" pin="2"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="24" name="/Dimmer channel 3/+12V">
+      <node ref="R57" pin="2"/>
+      <node ref="C40" pin="1"/>
+      <node ref="C64" pin="1"/>
+      <node ref="R43" pin="2"/>
+      <node ref="Q37" pin="2"/>
+      <node ref="Q55" pin="2"/>
+      <node ref="R40" pin="2"/>
+      <node ref="Q39" pin="2"/>
+      <node ref="R41" pin="2"/>
+      <node ref="C37" pin="1"/>
+      <node ref="C38" pin="1"/>
+      <node ref="C62" pin="1"/>
+      <node ref="Q43" pin="2"/>
+      <node ref="F19" pin="1"/>
+      <node ref="R59" pin="2"/>
+      <node ref="C39" pin="1"/>
+      <node ref="C52" pin="1"/>
+      <node ref="R42" pin="2"/>
+      <node ref="Q41" pin="2"/>
+      <node ref="Q53" pin="2"/>
+      <node ref="R56" pin="2"/>
+      <node ref="C49" pin="1"/>
+      <node ref="C50" pin="1"/>
+      <node ref="Q59" pin="2"/>
+      <node ref="Q57" pin="2"/>
+      <node ref="R58" pin="2"/>
+      <node ref="C51" pin="1"/>
+    </net>
+    <net code="25" name="/Dimmer channel 1/+12V">
+      <node ref="R12" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="Q21" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="C26" pin="1"/>
+      <node ref="R25" pin="2"/>
+      <node ref="C25" pin="1"/>
+      <node ref="Q23" pin="2"/>
+      <node ref="F18" pin="1"/>
+      <node ref="Q27" pin="2"/>
+      <node ref="Q10" pin="2"/>
+      <node ref="Q12" pin="2"/>
+      <node ref="C63" pin="1"/>
+      <node ref="C61" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R26" pin="2"/>
+      <node ref="Q25" pin="2"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="26" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="27" name="/PWM15">
+      <node ref="R39" pin="1"/>
+      <node ref="U1" pin="46"/>
+    </net>
+    <net code="28" name="/PWM14">
+      <node ref="R38" pin="1"/>
+      <node ref="U1" pin="45"/>
+    </net>
+    <net code="29" name="/PWM13">
+      <node ref="U1" pin="43"/>
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="30" name="/PWM12">
+      <node ref="R36" pin="1"/>
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="31" name="Net-(J1-Pad10)">
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="32" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="33" name="/SWCLK">
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="34" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="35" name="Net-(J1-Pad9)">
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="36" name="/SWDIO">
+      <node ref="U1" pin="34"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="37" name="Net-(C2-Pad2)">
+      <node ref="U1" pin="5"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="38" name="Net-(R3-Pad1)">
+      <node ref="U1" pin="44"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="39" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="40" name="Net-(U1-Pad38)">
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="41" name="Net-(U1-Pad33)">
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="42" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="43" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="44" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="45" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="46" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="47" name="Net-(U1-Pad41)">
+      <node ref="U1" pin="41"/>
+    </net>
+    <net code="48" name="Net-(U1-Pad40)">
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="49" name="Net-(U1-Pad39)">
+      <node ref="U1" pin="39"/>
+    </net>
+    <net code="50" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="51" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="52" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="53" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="54" name="Net-(C3-Pad2)">
+      <node ref="U1" pin="6"/>
+      <node ref="C3" pin="2"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="55" name="Net-(Q16-Pad4)">
+      <node ref="Q16" pin="4"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="56" name="Net-(C20-Pad1)">
+      <node ref="Q16" pin="6"/>
+      <node ref="C20" pin="1"/>
+      <node ref="Q16" pin="8"/>
+      <node ref="L4" pin="1"/>
+      <node ref="Q16" pin="7"/>
+      <node ref="Q16" pin="5"/>
+    </net>
+    <net code="57" name="Net-(C24-Pad1)">
+      <node ref="L4" pin="2"/>
+      <node ref="F5" pin="2"/>
+      <node ref="C24" pin="1"/>
+    </net>
+    <net code="58" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="59" name="Net-(Q12-Pad3)">
+      <node ref="R19" pin="1"/>
+      <node ref="Q12" pin="3"/>
+    </net>
+    <net code="60" name="Net-(Q12-Pad1)">
+      <node ref="Q7" pin="3"/>
+      <node ref="R13" pin="1"/>
+      <node ref="Q12" pin="1"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="61" name="Net-(Q10-Pad3)">
+      <node ref="Q10" pin="3"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="62" name="Net-(Q11-Pad3)">
+      <node ref="Q11" pin="3"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="63" name="Net-(Q10-Pad1)">
+      <node ref="Q6" pin="3"/>
+      <node ref="Q10" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="Q11" pin="1"/>
+    </net>
+    <net code="64" name="Net-(Q6-Pad1)">
+      <node ref="Q6" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="65" name="Net-(F5-Pad1)">
+      <node ref="J3" pin="5"/>
+      <node ref="F5" pin="1"/>
+    </net>
+    <net code="66" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="67" name="Net-(C17-Pad1)">
+      <node ref="Q13" pin="5"/>
+      <node ref="Q13" pin="8"/>
+      <node ref="Q13" pin="7"/>
+      <node ref="Q13" pin="6"/>
+      <node ref="C17" pin="1"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="68" name="Net-(Q7-Pad1)">
+      <node ref="Q7" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="69" name="Net-(C19-Pad1)">
+      <node ref="L3" pin="1"/>
+      <node ref="Q15" pin="5"/>
+      <node ref="Q15" pin="6"/>
+      <node ref="C19" pin="1"/>
+      <node ref="Q15" pin="7"/>
+      <node ref="Q15" pin="8"/>
+    </net>
+    <net code="70" name="Net-(Q1-Pad1)">
+      <node ref="R4" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="71" name="Net-(Q1-Pad3)">
+      <node ref="Q3" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="72" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="73" name="Net-(Q13-Pad4)">
+      <node ref="Q13" pin="4"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="74" name="Net-(Q2-Pad3)">
+      <node ref="R6" pin="1"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="75" name="Net-(F3-Pad1)">
+      <node ref="F3" pin="1"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="76" name="Net-(C22-Pad1)">
+      <node ref="F3" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="77" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1"/>
+      <node ref="F2" pin="2"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="78" name="Net-(F2-Pad1)">
+      <node ref="F2" pin="1"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="79" name="Net-(C23-Pad1)">
+      <node ref="C23" pin="1"/>
+      <node ref="F4" pin="2"/>
+      <node ref="L3" pin="2"/>
+    </net>
+    <net code="80" name="Net-(F4-Pad1)">
+      <node ref="F4" pin="1"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="81" name="Net-(Q15-Pad4)">
+      <node ref="Q15" pin="4"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="82" name="Net-(C18-Pad1)">
+      <node ref="Q14" pin="6"/>
+      <node ref="Q14" pin="8"/>
+      <node ref="Q14" pin="7"/>
+      <node ref="C18" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="Q14" pin="5"/>
+    </net>
+    <net code="83" name="Net-(Q5-Pad3)">
+      <node ref="Q5" pin="3"/>
+      <node ref="Q8" pin="1"/>
+      <node ref="Q9" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="84" name="Net-(Q14-Pad4)">
+      <node ref="Q14" pin="4"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="85" name="Net-(Q8-Pad3)">
+      <node ref="R14" pin="1"/>
+      <node ref="Q8" pin="3"/>
+    </net>
+    <net code="86" name="Net-(Q9-Pad3)">
+      <node ref="R15" pin="2"/>
+      <node ref="Q9" pin="3"/>
+    </net>
+    <net code="87" name="Net-(C32-Pad1)">
+      <node ref="Q32" pin="5"/>
+      <node ref="Q32" pin="6"/>
+      <node ref="Q32" pin="7"/>
+      <node ref="Q32" pin="8"/>
+      <node ref="L8" pin="1"/>
+      <node ref="C32" pin="1"/>
+    </net>
+    <net code="88" name="Net-(Q32-Pad4)">
+      <node ref="R34" pin="2"/>
+      <node ref="Q32" pin="4"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="89" name="Net-(C36-Pad1)">
+      <node ref="L8" pin="2"/>
+      <node ref="F9" pin="2"/>
+      <node ref="C36" pin="1"/>
+    </net>
+    <net code="90" name="Net-(Q28-Pad3)">
+      <node ref="Q28" pin="3"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="91" name="Net-(Q27-Pad3)">
+      <node ref="Q27" pin="3"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="92" name="Net-(Q20-Pad3)">
+      <node ref="Q20" pin="3"/>
+      <node ref="R27" pin="1"/>
+      <node ref="Q27" pin="1"/>
+      <node ref="Q28" pin="1"/>
+    </net>
+    <net code="93" name="Net-(Q19-Pad3)">
+      <node ref="Q25" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="Q19" pin="3"/>
+      <node ref="Q26" pin="1"/>
+    </net>
+    <net code="94" name="Net-(Q25-Pad3)">
+      <node ref="R32" pin="1"/>
+      <node ref="Q25" pin="3"/>
+    </net>
+    <net code="95" name="Net-(Q26-Pad3)">
+      <node ref="R33" pin="2"/>
+      <node ref="Q26" pin="3"/>
+    </net>
+    <net code="96" name="Net-(Q19-Pad1)">
+      <node ref="R22" pin="2"/>
+      <node ref="Q19" pin="1"/>
+    </net>
+    <net code="97" name="Net-(F9-Pad1)">
+      <node ref="F9" pin="1"/>
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="98" name="Net-(Q18-Pad1)">
+      <node ref="Q18" pin="1"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="99" name="Net-(Q29-Pad4)">
+      <node ref="Q29" pin="4"/>
+      <node ref="R29" pin="1"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="100" name="Net-(Q20-Pad1)">
+      <node ref="R23" pin="2"/>
+      <node ref="Q20" pin="1"/>
+    </net>
+    <net code="101" name="Net-(C29-Pad1)">
+      <node ref="L5" pin="1"/>
+      <node ref="Q29" pin="8"/>
+      <node ref="C29" pin="1"/>
+      <node ref="Q29" pin="5"/>
+      <node ref="Q29" pin="6"/>
+      <node ref="Q29" pin="7"/>
+    </net>
+    <net code="102" name="Net-(C31-Pad1)">
+      <node ref="Q31" pin="5"/>
+      <node ref="Q31" pin="6"/>
+      <node ref="L7" pin="1"/>
+      <node ref="Q31" pin="7"/>
+      <node ref="C31" pin="1"/>
+      <node ref="Q31" pin="8"/>
+    </net>
+    <net code="103" name="Net-(Q17-Pad1)">
+      <node ref="Q17" pin="1"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="104" name="Net-(Q22-Pad3)">
+      <node ref="Q22" pin="3"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="105" name="Net-(Q21-Pad3)">
+      <node ref="R28" pin="1"/>
+      <node ref="Q21" pin="3"/>
+    </net>
+    <net code="106" name="Net-(C34-Pad1)">
+      <node ref="C34" pin="1"/>
+      <node ref="L6" pin="2"/>
+      <node ref="F7" pin="2"/>
+    </net>
+    <net code="107" name="Net-(F7-Pad1)">
+      <node ref="J4" pin="3"/>
+      <node ref="F7" pin="1"/>
+    </net>
+    <net code="108" name="Net-(Q17-Pad3)">
+      <node ref="R24" pin="1"/>
+      <node ref="Q21" pin="1"/>
+      <node ref="Q22" pin="1"/>
+      <node ref="Q17" pin="3"/>
+    </net>
+    <net code="109" name="Net-(C33-Pad1)">
+      <node ref="L5" pin="2"/>
+      <node ref="F6" pin="2"/>
+      <node ref="C33" pin="1"/>
+    </net>
+    <net code="110" name="Net-(F6-Pad1)">
+      <node ref="J4" pin="2"/>
+      <node ref="F6" pin="1"/>
+    </net>
+    <net code="111" name="Net-(C35-Pad1)">
+      <node ref="C35" pin="1"/>
+      <node ref="F8" pin="2"/>
+      <node ref="L7" pin="2"/>
+    </net>
+    <net code="112" name="Net-(F8-Pad1)">
+      <node ref="J4" pin="4"/>
+      <node ref="F8" pin="1"/>
+    </net>
+    <net code="113" name="Net-(Q18-Pad3)">
+      <node ref="Q24" pin="1"/>
+      <node ref="Q23" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="Q18" pin="3"/>
+    </net>
+    <net code="114" name="Net-(Q31-Pad4)">
+      <node ref="R33" pin="1"/>
+      <node ref="R32" pin="2"/>
+      <node ref="Q31" pin="4"/>
+    </net>
+    <net code="115" name="Net-(C30-Pad1)">
+      <node ref="L6" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="Q30" pin="5"/>
+      <node ref="Q30" pin="6"/>
+      <node ref="Q30" pin="7"/>
+      <node ref="Q30" pin="8"/>
+    </net>
+    <net code="116" name="Net-(Q30-Pad4)">
+      <node ref="R30" pin="2"/>
+      <node ref="Q30" pin="4"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="117" name="Net-(Q23-Pad3)">
+      <node ref="Q23" pin="3"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="118" name="Net-(Q24-Pad3)">
+      <node ref="Q24" pin="3"/>
+      <node ref="R31" pin="2"/>
+    </net>
+    <net code="119" name="Net-(C44-Pad1)">
+      <node ref="L12" pin="1"/>
+      <node ref="Q48" pin="5"/>
+      <node ref="Q48" pin="6"/>
+      <node ref="Q48" pin="7"/>
+      <node ref="Q48" pin="8"/>
+      <node ref="C44" pin="1"/>
+    </net>
+    <net code="120" name="Net-(Q48-Pad4)">
+      <node ref="R51" pin="1"/>
+      <node ref="R50" pin="2"/>
+      <node ref="Q48" pin="4"/>
+    </net>
+    <net code="121" name="Net-(C48-Pad1)">
+      <node ref="L12" pin="2"/>
+      <node ref="C48" pin="1"/>
+      <node ref="F13" pin="2"/>
+    </net>
+    <net code="122" name="Net-(Q43-Pad3)">
+      <node ref="Q43" pin="3"/>
+      <node ref="R50" pin="1"/>
+    </net>
+    <net code="123" name="Net-(Q36-Pad3)">
+      <node ref="Q43" pin="1"/>
+      <node ref="Q44" pin="1"/>
+      <node ref="R43" pin="1"/>
+      <node ref="Q36" pin="3"/>
+    </net>
+    <net code="124" name="Net-(Q44-Pad3)">
+      <node ref="R51" pin="2"/>
+      <node ref="Q44" pin="3"/>
+    </net>
+    <net code="125" name="Net-(Q41-Pad3)">
+      <node ref="Q41" pin="3"/>
+      <node ref="R48" pin="1"/>
+    </net>
+    <net code="126" name="Net-(Q42-Pad3)">
+      <node ref="R49" pin="2"/>
+      <node ref="Q42" pin="3"/>
+    </net>
+    <net code="127" name="Net-(Q35-Pad3)">
+      <node ref="Q42" pin="1"/>
+      <node ref="R42" pin="1"/>
+      <node ref="Q35" pin="3"/>
+      <node ref="Q41" pin="1"/>
+    </net>
+    <net code="128" name="Net-(Q35-Pad1)">
+      <node ref="Q35" pin="1"/>
+      <node ref="R38" pin="2"/>
+    </net>
+    <net code="129" name="Net-(F13-Pad1)">
+      <node ref="J5" pin="5"/>
+      <node ref="F13" pin="1"/>
+    </net>
+    <net code="130" name="Net-(Q34-Pad1)">
+      <node ref="R37" pin="2"/>
+      <node ref="Q34" pin="1"/>
+    </net>
+    <net code="131" name="Net-(Q36-Pad1)">
+      <node ref="R39" pin="2"/>
+      <node ref="Q36" pin="1"/>
+    </net>
+    <net code="132" name="Net-(C41-Pad1)">
+      <node ref="Q45" pin="7"/>
+      <node ref="Q45" pin="8"/>
+      <node ref="L9" pin="1"/>
+      <node ref="Q45" pin="6"/>
+      <node ref="Q45" pin="5"/>
+      <node ref="C41" pin="1"/>
+    </net>
+    <net code="133" name="Net-(C43-Pad1)">
+      <node ref="Q47" pin="7"/>
+      <node ref="Q47" pin="8"/>
+      <node ref="Q47" pin="6"/>
+      <node ref="L11" pin="1"/>
+      <node ref="C43" pin="1"/>
+      <node ref="Q47" pin="5"/>
+    </net>
+    <net code="134" name="Net-(Q33-Pad1)">
+      <node ref="R36" pin="2"/>
+      <node ref="Q33" pin="1"/>
+    </net>
+    <net code="135" name="Net-(Q33-Pad3)">
+      <node ref="R40" pin="1"/>
+      <node ref="Q37" pin="1"/>
+      <node ref="Q38" pin="1"/>
+      <node ref="Q33" pin="3"/>
+    </net>
+    <net code="136" name="Net-(Q38-Pad3)">
+      <node ref="Q38" pin="3"/>
+      <node ref="R45" pin="2"/>
+    </net>
+    <net code="137" name="Net-(Q45-Pad4)">
+      <node ref="R44" pin="2"/>
+      <node ref="R45" pin="1"/>
+      <node ref="Q45" pin="4"/>
+    </net>
+    <net code="138" name="Net-(Q37-Pad3)">
+      <node ref="R44" pin="1"/>
+      <node ref="Q37" pin="3"/>
+    </net>
+    <net code="139" name="Net-(C46-Pad1)">
+      <node ref="F11" pin="2"/>
+      <node ref="L10" pin="2"/>
+      <node ref="C46" pin="1"/>
+    </net>
+    <net code="140" name="Net-(F11-Pad1)">
+      <node ref="F11" pin="1"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="141" name="Net-(C45-Pad1)">
+      <node ref="F10" pin="2"/>
+      <node ref="L9" pin="2"/>
+      <node ref="C45" pin="1"/>
+    </net>
+    <net code="142" name="Net-(F10-Pad1)">
+      <node ref="J5" pin="2"/>
+      <node ref="F10" pin="1"/>
+    </net>
+    <net code="143" name="Net-(C47-Pad1)">
+      <node ref="L11" pin="2"/>
+      <node ref="F12" pin="2"/>
+      <node ref="C47" pin="1"/>
+    </net>
+    <net code="144" name="Net-(F12-Pad1)">
+      <node ref="F12" pin="1"/>
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="145" name="Net-(Q34-Pad3)">
+      <node ref="Q34" pin="3"/>
+      <node ref="R41" pin="1"/>
+      <node ref="Q39" pin="1"/>
+      <node ref="Q40" pin="1"/>
+    </net>
+    <net code="146" name="Net-(Q47-Pad4)">
+      <node ref="Q47" pin="4"/>
+      <node ref="R49" pin="1"/>
+      <node ref="R48" pin="2"/>
+    </net>
+    <net code="147" name="Net-(C42-Pad1)">
+      <node ref="Q46" pin="8"/>
+      <node ref="C42" pin="1"/>
+      <node ref="Q46" pin="7"/>
+      <node ref="Q46" pin="6"/>
+      <node ref="Q46" pin="5"/>
+      <node ref="L10" pin="1"/>
+    </net>
+    <net code="148" name="Net-(Q46-Pad4)">
+      <node ref="R47" pin="1"/>
+      <node ref="R46" pin="2"/>
+      <node ref="Q46" pin="4"/>
+    </net>
+    <net code="149" name="Net-(Q39-Pad3)">
+      <node ref="R46" pin="1"/>
+      <node ref="Q39" pin="3"/>
+    </net>
+    <net code="150" name="Net-(Q40-Pad3)">
+      <node ref="R47" pin="2"/>
+      <node ref="Q40" pin="3"/>
+    </net>
+    <net code="151" name="Net-(Q64-Pad4)">
+      <node ref="R67" pin="1"/>
+      <node ref="R66" pin="2"/>
+      <node ref="Q64" pin="4"/>
+    </net>
+    <net code="152" name="Net-(C56-Pad1)">
+      <node ref="C56" pin="1"/>
+      <node ref="L16" pin="1"/>
+      <node ref="Q64" pin="8"/>
+      <node ref="Q64" pin="7"/>
+      <node ref="Q64" pin="6"/>
+      <node ref="Q64" pin="5"/>
+    </net>
+    <net code="153" name="Net-(C60-Pad1)">
+      <node ref="F17" pin="2"/>
+      <node ref="C60" pin="1"/>
+      <node ref="L16" pin="2"/>
+    </net>
+    <net code="154" name="Net-(Q60-Pad3)">
+      <node ref="R67" pin="2"/>
+      <node ref="Q60" pin="3"/>
+    </net>
+    <net code="155" name="Net-(Q59-Pad3)">
+      <node ref="Q59" pin="3"/>
+      <node ref="R66" pin="1"/>
+    </net>
+    <net code="156" name="Net-(Q52-Pad3)">
+      <node ref="R59" pin="1"/>
+      <node ref="Q59" pin="1"/>
+      <node ref="Q60" pin="1"/>
+      <node ref="Q52" pin="3"/>
+    </net>
+    <net code="157" name="Net-(Q57-Pad3)">
+      <node ref="R64" pin="1"/>
+      <node ref="Q57" pin="3"/>
+    </net>
+    <net code="158" name="Net-(Q58-Pad3)">
+      <node ref="Q58" pin="3"/>
+      <node ref="R65" pin="2"/>
+    </net>
+    <net code="159" name="Net-(Q51-Pad3)">
+      <node ref="Q57" pin="1"/>
+      <node ref="R58" pin="1"/>
+      <node ref="Q51" pin="3"/>
+      <node ref="Q58" pin="1"/>
+    </net>
+    <net code="160" name="Net-(Q51-Pad1)">
+      <node ref="Q51" pin="1"/>
+      <node ref="R54" pin="2"/>
+    </net>
+    <net code="161" name="Net-(F17-Pad1)">
+      <node ref="F17" pin="1"/>
+      <node ref="J6" pin="5"/>
+    </net>
+    <net code="162" name="Net-(C53-Pad1)">
+      <node ref="C53" pin="1"/>
+      <node ref="L13" pin="1"/>
+      <node ref="Q61" pin="5"/>
+      <node ref="Q61" pin="6"/>
+      <node ref="Q61" pin="7"/>
+      <node ref="Q61" pin="8"/>
+    </net>
+    <net code="163" name="Net-(Q50-Pad1)">
+      <node ref="R53" pin="2"/>
+      <node ref="Q50" pin="1"/>
+    </net>
+    <net code="164" name="Net-(Q52-Pad1)">
+      <node ref="Q52" pin="1"/>
+      <node ref="R55" pin="2"/>
+    </net>
+    <net code="165" name="Net-(C55-Pad1)">
+      <node ref="L15" pin="1"/>
+      <node ref="Q63" pin="5"/>
+      <node ref="C55" pin="1"/>
+      <node ref="Q63" pin="6"/>
+      <node ref="Q63" pin="7"/>
+      <node ref="Q63" pin="8"/>
+    </net>
+    <net code="166" name="Net-(Q49-Pad1)">
+      <node ref="Q49" pin="1"/>
+      <node ref="R52" pin="2"/>
+    </net>
+    <net code="167" name="Net-(Q49-Pad3)">
+      <node ref="Q49" pin="3"/>
+      <node ref="Q53" pin="1"/>
+      <node ref="Q54" pin="1"/>
+      <node ref="R56" pin="1"/>
+    </net>
+    <net code="168" name="Net-(Q54-Pad3)">
+      <node ref="Q54" pin="3"/>
+      <node ref="R61" pin="2"/>
+    </net>
+    <net code="169" name="Net-(Q61-Pad4)">
+      <node ref="Q61" pin="4"/>
+      <node ref="R61" pin="1"/>
+      <node ref="R60" pin="2"/>
+    </net>
+    <net code="170" name="Net-(Q53-Pad3)">
+      <node ref="Q53" pin="3"/>
+      <node ref="R60" pin="1"/>
+    </net>
+    <net code="171" name="Net-(F15-Pad1)">
+      <node ref="J6" pin="3"/>
+      <node ref="F15" pin="1"/>
+    </net>
+    <net code="172" name="Net-(C58-Pad1)">
+      <node ref="C58" pin="1"/>
+      <node ref="F15" pin="2"/>
+      <node ref="L14" pin="2"/>
+    </net>
+    <net code="173" name="Net-(C57-Pad1)">
+      <node ref="C57" pin="1"/>
+      <node ref="F14" pin="2"/>
+      <node ref="L13" pin="2"/>
+    </net>
+    <net code="174" name="Net-(F14-Pad1)">
+      <node ref="F14" pin="1"/>
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="175" name="Net-(C59-Pad1)">
+      <node ref="F16" pin="2"/>
+      <node ref="C59" pin="1"/>
+      <node ref="L15" pin="2"/>
+    </net>
+    <net code="176" name="Net-(F16-Pad1)">
+      <node ref="J6" pin="4"/>
+      <node ref="F16" pin="1"/>
+    </net>
+    <net code="177" name="Net-(Q63-Pad4)">
+      <node ref="R64" pin="2"/>
+      <node ref="Q63" pin="4"/>
+      <node ref="R65" pin="1"/>
+    </net>
+    <net code="178" name="Net-(Q50-Pad3)">
+      <node ref="Q56" pin="1"/>
+      <node ref="Q50" pin="3"/>
+      <node ref="R57" pin="1"/>
+      <node ref="Q55" pin="1"/>
+    </net>
+    <net code="179" name="Net-(C54-Pad1)">
+      <node ref="Q62" pin="6"/>
+      <node ref="Q62" pin="7"/>
+      <node ref="C54" pin="1"/>
+      <node ref="Q62" pin="5"/>
+      <node ref="L14" pin="1"/>
+      <node ref="Q62" pin="8"/>
+    </net>
+    <net code="180" name="Net-(Q62-Pad4)">
+      <node ref="R62" pin="2"/>
+      <node ref="R63" pin="1"/>
+      <node ref="Q62" pin="4"/>
+    </net>
+    <net code="181" name="Net-(Q55-Pad3)">
+      <node ref="Q55" pin="3"/>
+      <node ref="R62" pin="1"/>
+    </net>
+    <net code="182" name="Net-(Q56-Pad3)">
+      <node ref="R63" pin="2"/>
+      <node ref="Q56" pin="3"/>
+    </net>
+  </nets>
+</export>

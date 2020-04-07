@@ -843,9 +843,6 @@ F 4 "C6749" H 2800 4750 50  0001 C CNN "LCSC"
 	1    2800 4750
 	1    0    0    -1  
 $EndComp
-Connection ~ 5900 5550
-Wire Wire Line
-	6100 5550 5900 5550
 $Comp
 L Device:Polyfuse F5
 U 1 1 5EBED568
@@ -865,29 +862,11 @@ $EndComp
 Connection ~ 5400 5550
 Wire Wire Line
 	5500 5550 5400 5550
-Wire Wire Line
-	5900 5550 5800 5550
 Connection ~ 5400 6300
 Wire Wire Line
 	5900 6300 5400 6300
 Wire Wire Line
 	5900 5850 5900 6300
-$Comp
-L Device:C C24
-U 1 1 5EBED575
-P 5900 5700
-AR Path="/5EADE2DF/5EBED575" Ref="C24"  Part="1" 
-AR Path="/5EAEA785/5EBED575" Ref="C36"  Part="1" 
-AR Path="/5EAEB6DE/5EBED575" Ref="C48"  Part="1" 
-AR Path="/5EAEC5FF/5EBED575" Ref="C60"  Part="1" 
-F 0 "C24" H 6015 5746 50  0000 L CNN
-F 1 "1uF" H 6015 5655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 5938 5550 50  0001 C CNN
-F 3 "~" H 5900 5700 50  0001 C CNN
-F 4 "C15849" H 5900 5700 50  0001 C CNN "LCSC"
-	1    5900 5700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5400 5550 4750 5550
 Connection ~ 4750 6300
@@ -1338,4 +1317,25 @@ VDD
 Connection ~ 3150 5300
 Wire Wire Line
 	3150 5300 3750 5300
+Connection ~ 5900 5550
+Wire Wire Line
+	6100 5550 5900 5550
+Wire Wire Line
+	5900 5550 5800 5550
+$Comp
+L Device:C C24
+U 1 1 5EBED575
+P 5900 5700
+AR Path="/5EADE2DF/5EBED575" Ref="C24"  Part="1" 
+AR Path="/5EAEA785/5EBED575" Ref="C36"  Part="1" 
+AR Path="/5EAEB6DE/5EBED575" Ref="C48"  Part="1" 
+AR Path="/5EAEC5FF/5EBED575" Ref="C60"  Part="1" 
+F 0 "C24" H 6015 5746 50  0000 L CNN
+F 1 "1uF" H 6015 5655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5938 5550 50  0001 C CNN
+F 3 "~" H 5900 5700 50  0001 C CNN
+F 4 "C1848" H 5900 5700 50  0001 C CNN "LCSC"
+	1    5900 5700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

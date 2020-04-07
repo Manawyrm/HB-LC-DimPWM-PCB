@@ -861,7 +861,7 @@
     )
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_2512_6332Metric.step
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 1 0.7879 4))
       (rotate (xyz 0 0 0))
     )
   )
@@ -902,7 +902,7 @@
     )
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_2512_6332Metric.step
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 1 0.7877999999999999 4))
       (rotate (xyz 0 0 0))
     )
   )
@@ -9503,7 +9503,7 @@
     )
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_2512_6332Metric.step
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 1 0.7877999999999999 4))
       (rotate (xyz 0 0 0))
     )
   )

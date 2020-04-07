@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 52)
-    (tracks 1652)
+    (tracks 1661)
     (zones 0)
     (modules 243)
     (nets 183)
@@ -818,7 +818,7 @@
       (net 1 GND))
     (pad 1 thru_hole roundrect (at 0 0) (size 2 2.6) (drill 1.6) (layers *.Cu *.Mask) (roundrect_rratio 0.125)
       (net 5 +12V))
-    (model ${KIPRJMOD}/lib/3dmodels/714-162.stpe
+    (model ${KIPRJMOD}/lib/3dmodels/714-162.stp
       (offset (xyz 6 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -861,7 +861,7 @@
     )
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_2512_6332Metric.step
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 1 0.7879 4))
       (rotate (xyz 0 0 0))
     )
   )
@@ -9503,7 +9503,7 @@
     )
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_2512_6332Metric.step
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 1 0.7877999999999999 4))
       (rotate (xyz 0 0 0))
     )
   )
@@ -10871,6 +10871,15 @@
   (via (at 256.347 68.65) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1) (tstamp 5EA5EE24))
   (via (at 256.347 66.64) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1) (tstamp 5EA5EE26))
   (via (at 256.347 64.63) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1) (tstamp 5EA5EE28))
+  (via (at 171.95 101.2) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (via (at 171.15 100.3) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (via (at 164.5 99.1) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (via (at 163.6 99.3) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (via (at 163.4 100.2) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (via (at 161.8 104.2) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (via (at 163 101.2) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (via (at 161.7 101.2) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (via (at 160.1 104.2) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (segment (start 169.426338 93.163002) (end 169.426338 93.173662) (width 0.127) (layer F.Cu) (net 2))
   (segment (start 169.00355 93.59645) (end 167.44645 93.59645) (width 0.127) (layer F.Cu) (net 2))
   (segment (start 169.426338 93.173662) (end 169.00355 93.59645) (width 0.127) (layer F.Cu) (net 2))

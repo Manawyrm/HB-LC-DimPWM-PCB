@@ -1,4 +1,4 @@
-(module SMD-PIND-10.5x11.5x4_2.5x3.0 (layer F.Cu) (tedit 5E8866B4)
+(module SMD-PIND-10.5x11.5x4_2.5x3.0 (layer F.Cu) (tedit 5E8C4852)
   (attr smd)
   (fp_text reference REF** (at 0 -6.35) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -20,9 +20,9 @@
   (fp_line (start 6 4.4) (end 6 5.5) (layer F.SilkS) (width 0.12))
   (pad 1 smd rect (at -4.75 0) (size 3.5 4) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 4.75 0) (size 3.5 4) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Bourns_SRR1260.step
+  (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Wuerth_HCI-2212.step
     (at (xyz 0 0 0))
-    (scale (xyz 1 0.9 1))
+    (scale (xyz 0.5 0.5 0.5))
     (rotate (xyz 0 0 0))
   )
 )
